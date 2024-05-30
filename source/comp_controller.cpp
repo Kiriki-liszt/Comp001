@@ -196,12 +196,12 @@ namespace VSTGUI {
 			if (!curveView)
 				return false;
 
-			if (attributeName == kAttrVuOnColor)
+			if (attributeName == kAttrBackColor)
 			{
 				UIViewCreator::colorToString(curveView->getBackColor(), stringValue, desc);
 				return true;
 			}
-			else if (attributeName == kAttrVuOffColor)
+			else if (attributeName == kAttrLineColor)
 			{
 				UIViewCreator::colorToString(curveView->getLineColor(), stringValue, desc);
 				return true;
